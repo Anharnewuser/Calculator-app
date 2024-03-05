@@ -1,29 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorConsoleApp
+class Calculator
 {
-    internal class Program
-    {
         static void Main(string[] args)
         {
             
 
-            Console.Title = "Aplikasi Calculator";
-
-            Console.WriteLine("Pilih Menu Calculator");
-
-
-            Console.Write("Inputkan nilai a = ");
-            int a = int.Parse(Console.ReadLine());
-
-            Console.Write("Inputkan nilai b = ");
-            int b = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine();
+           int a = 10;
+		   int b = 6;
+		   
 
             Console.WriteLine("Hasil Penambahan " + a + " + " + b + " = " + penambahan(a, b));
                 Console.WriteLine("Hasil Pengurangan {0} - {1} = {2}", a, b, pengurangan(a, b));
